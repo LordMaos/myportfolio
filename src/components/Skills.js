@@ -16,6 +16,7 @@ import mysql from "../assets/img/mysql.png";
 import nodejs from "../assets/img/nodejs.png";
 import git from "../assets/img/git.png";
 import postgresql from "../assets/img/postgresql.png";
+import { Ubuntu } from "react-bootstrap-icons";
 
 
 export const Skills = () => {
@@ -67,6 +68,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={javascript} alt="Image" />
                                 <h5>Javascript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Ubuntu} alt="Image" />
+                                <h5>Ubuntu</h5>
                             </div>
                             <div className="item">
                                 <img src={angular} alt="Image" />
